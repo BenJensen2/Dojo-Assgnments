@@ -179,3 +179,6 @@ function scaleArray(arr,x){
     }
     return arr;
 }
+
+
+// Change for Git
