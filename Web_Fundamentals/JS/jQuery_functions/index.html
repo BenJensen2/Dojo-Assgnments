@@ -1,0 +1,30 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="myscripts.js"></script>
+        <title>jQuery Functions</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <button>Click to Go Away</button>
+            </div>
+            <div class="content">
+                <p>This text will disappear</p>
+            </div>
+        </div>
+        <script>
+            $("button").click(function(){
+                console.log("Button clicked");
+                $("p").slideUp();
+            });
+
+            $("button").click(function(){
+                $("p").after("<p>but THIS will show up....</p>");
+            });
+        </script>
+    </body>
+
+</html>

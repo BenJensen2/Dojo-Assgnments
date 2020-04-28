@@ -1,0 +1,175 @@
+/* CSS reset settings here */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Extends from top to bottom with no padding */
+/* Original Picture of WebPate: 919 x 974.89 */
+.wrapper{
+ height: 919px;
+ width: 975px;
+ margin: auto;
+ background-image: radial-gradient(#F9F9F9, #F2F2F2);
+ font-size: 12px;
+}
+
+/* Header: Top part of Wrapper */
+.header{
+    height: 40px;
+    width: 955px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Name */
+h1{
+    font-size: 35px;
+    line-height: 50px;
+    display: inline-block;
+}
+ /* Name description in Header */
+p1{
+    font-size: 20px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+/* Main Body of page with radial gradient coloring */
+.main{
+    height: 770px;
+    width: 955px;
+    padding: 10px;
+    background-image: radial-gradient(#6F5964, #1A0A0E);
+}
+
+/*  Blocks contained inside of main Body of page */
+.picture, .about, .lamode, .family, .fiveEleven{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    background-image: linear-gradient(90deg,#FEFEFE, #DACBD9);
+}
+
+/* Main picture container with padding */
+.picture{
+     height: 250px;
+     width: 400px;
+     padding: 5px;
+     background-color: #C0C0C0;
+}
+
+/* Main picture inside of container */
+.photo_of_me{
+    height: 250px;
+    width: 400px;
+}
+
+/* About Container */
+.about{
+    height: 260px;
+    width: 500px;
+}
+
+/* About Paragraph with Link */
+.aboutparagraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* All Paragraph's Text Color with "About Me" Link and bottom contact information */
+p, div.about a{
+    color: #3C2833;
+}
+
+
+/* Bottom Three Container Sizes */
+.lamode, .family, .fiveEleven {
+    
+    height: 470px;
+    width: 295px;
+}
+
+/* Pictures of Projects within each bottom container */
+.projects{
+    width: 290px;
+    height: 130px;
+}
+
+/* Bottom Container Header Formatting */ 
+h2, h3{
+    background-image: linear-gradient(#B2B2B6,#878693 ,#B2B2B6);
+    padding: 5px;
+    font-weight: bold;
+    color: #FFFEFD;
+}
+
+/* Bottom Container Paragraph Formatting */
+.lamode p, .family p, .fiveEleven p{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: justify;
+    height: 120px;
+}
+
+/* Technologies Containers */
+.technologies{
+    height: 110px;
+}
+/* Technology Images used */
+div.technologies img{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    line-height: 10px;
+}
+
+/* Project Link Buttons */
+.lamode a, .family a, .fiveEleven a{
+    display: block;
+    height: 8px;
+    width: fit-content;
+    background-color: #407D61;
+    color: #FFFEFD;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 8px;
+    box-shadow: 3px 2px #B4AFB3;
+}
+
+/* Personal Contact Information */
+.contact{
+    color: #0A1022;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Social Media Tags Text */
+.socialmedia{
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Social Media Tags alignent */
+li{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+/* Social Media image sizes */
+.socialmedia img{
+    width: 17px;
+    height: 17px;
+    vertical-align: top;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 480px){
+    /* we will set these stylings only if the device is a screen with a width of 480px or less */
+.media_queries, .css, .desktop{
+    width: 100%;
+}
+}
+.container{
+    padding: 10px;
+}
+.media_queries{
+    background-color: #B3B3B3;
+}
+
+.css{
+    background-color: #CCCCCC;
+    margin: 5px 0px 5px 0px;
+}
+
+.desktop{
+    background-color: #FEFF99;
+}
+
+span{
+    font-weight: bold;
+}

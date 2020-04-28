@@ -1,0 +1,66 @@
+<form action="process.php" method="post">
+    
+    <table>
+      <thead>My Registration Form</thead>
+      <br>
+      <br>
+      <tbody>
+        <tr>    
+            <th><label for="first_name">First Name:</label> </th>
+            <th><input type="text" id="first_name" name="first_name"></th>
+        </tr>
+
+        <tr>
+            <th><label for="last_name">Last Name:</label></th>
+            <th><input type="text" id="last_name" name="last_name"></th>
+        </tr>
+        
+        <tr>
+            <th><label for="email">Email:</label></th>
+            <th><input type="text" id="email" name="email"></th>
+        </tr> 
+
+        <tr>
+            <th><label for="password">Password:</label></th>
+            <th><input type="password" id="password" name="password"></th>
+        </tr>
+
+        <tr>
+            <th><label for="password_confirm">PW Confirm:</label></th>
+            <th><input type="password" id="password_confirm" name="password_confirm"></th>
+        </tr>
+
+        <tr>
+            <th><label for="birthday">Birthday:</label></th>
+            <th><input type="date" id="birthday" name="birthday"></th>
+          </tr>
+        </tbody>
+  </table>
+
+    <p>Select your gender:</p>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+   
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+    
+    <label for="other">Other</label>
+    <input type="radio" id="other" name="gender" value="decline">
+   
+    <p>A short description about yourself:</p>
+    <textarea name="description"></textarea>
+
+    <p></p>
+    <label for="language">Favorite Language</label>
+    <select id="language">
+      <option value="Swift">Swift</option>
+      <option value="Django">Django</option>
+      <option value="JavaScript">JavaScript</option>
+      <option value="CSS">CSS</option>
+      <option value="Python">Python</option>
+    </select>
+
+    <p></p>
+    <input type="submit" value="Submit">
+    
+</form>
