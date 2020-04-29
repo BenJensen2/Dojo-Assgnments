@@ -3,3 +3,54 @@
     padding: 0px;
 }
 
+.container{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+button{
+    width: 135px;
+    height: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+img{
+    width: 135px;
+    height: 135px;
+}
+
+.click button{
+    background-color: yellow;
+}
+
+.hide button{
+    color: white;
+    background-color: blue;
+}
+
+.show button{
+    color: white;
+    background-color: purple;
+}
+
+.toggle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggle button{
+    color: greenyellow;
+    background: grey;
+    border: solid 1px greenyellow;
+    margin-right: 200px;
+}
+
+.slideDown button{
+    color: hotpink;
+    background: grey;
+    border: solid 1px hotpink;
+    margin-right: 200px;
+}

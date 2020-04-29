@@ -8,23 +8,36 @@
     </head>
     <body>
         <div class="container">
-            <div class="header">
-                <button>Click to Go Away</button>
+            <div class="click"><button>Click for a message</button></div>
+            <div class="hide"><button>Click to Hide</button></div>
+            <div class="show"><button>Click to show</button></div>
+            <div class="toggle">
+                <button>Click to toggle</button>
+                <img src="the_greatest_show.jpg" alt="the_greatest_show_alt.jpg">
             </div>
-            <div class="content">
-                <p>This text will disappear</p>
+            <div class="slideDown">
+                <button>Click to Slide</button>
+                <img src="slime.jpg" alt="slime_alt.jpg">
             </div>
         </div>
-        <script>
-            $("button").click(function(){
-                console.log("Button clicked");
-                $("p").slideUp();
-            });
-
-            $("button").click(function(){
-                $("p").after("<p>but THIS will show up....</p>");
-            });
-        </script>
     </body>
-
 </html>
+
+                <!-- 
+                .click
+                .hide
+                .show
+                .toggle
+                .slideDown
+                .slideUp
+                .slideToggle
+                .fadeIn
+                .fadeOut
+                .addClass
+                .before
+                .after
+                .append
+                .html
+                .attr
+                .val
+                .text -->
