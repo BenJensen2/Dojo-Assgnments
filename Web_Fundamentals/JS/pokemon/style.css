@@ -10,24 +10,18 @@
 
 
 .content{
-    width: 500px;
+    width: 600px;
     height: 1000px;
-    border: solid red;
+
 }
 
 .content p{
     display: inline-block;
 }
 
-.content img{
-    width: 50px;
-    height: 50px;
-    background-color: blue;
-}
-
 .characteristics{
-    height: 400px;
-    width: 200px;
+    min-height: 400px;
+    min-width: 200px;
     border: solid 40px Red;
     padding: 40px;
 }
