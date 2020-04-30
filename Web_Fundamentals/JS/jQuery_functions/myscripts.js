@@ -32,7 +32,15 @@ $(document).ready(function(){
     $(".slideDown img").slideDown();
   });
 
+  $(".append p").click(function(){
+    console.log("Append")
+    $(".append p").append("KING!!!");
+  });
 
+  $(".html button").click(function(){
+    console.log("HTML")
+    $(".html p").html("He is Risen!!!");
+  });
 
 });
 

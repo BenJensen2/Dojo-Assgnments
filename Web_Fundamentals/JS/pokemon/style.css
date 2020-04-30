@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.content, .characteristics{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.content{
+    width: 500px;
+    height: 1000px;
+    border: solid red;
+}
+
+.content p{
+    display: inline-block;
+}
+
+.content img{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+.characteristics{
+    height: 400px;
+    width: 200px;
+    border: solid 40px Red;
+    padding: 40px;
+}
+
