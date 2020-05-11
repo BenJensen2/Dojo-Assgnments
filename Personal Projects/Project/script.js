@@ -20,7 +20,7 @@ $(document).ready(function(){
             userInfo += `<p>${routes.routes[1].name}   ${routes.routes[1].rating}</p>`;
             userInfo += `<p>${routes.routes[2].name}   ${routes.routes[2].rating}</p>`;
             console.log(userInfo)
-            $("div #user").html(userInfo);
+            $("div.user").html(userInfo);
         });
     });
 
